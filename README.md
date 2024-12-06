@@ -1,0 +1,1 @@
+This repository demonstrates a common error in Dapp development: forgetting to handle asynchronous operations correctly. The `getBalance` function uses async/await, but the caller doesn't wait for the Promise to resolve. This results in the Promise being logged instead of the actual balance. The solution shows how to correctly await the Promise to retrieve the balance.
